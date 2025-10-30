@@ -14,7 +14,7 @@ function App() {
       className="w-screen h-screen bg-white "
       style={{ fontFamily: "'Montserrat', sans-serif" }}
     >
-      {/* <Header /> */}
+      <Header />
       <Banner />
       <div className=" h-full bg-white">
         <Page />
