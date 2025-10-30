@@ -35,7 +35,7 @@ function Page() {
         <div className="h-full col-span-3 lg:col-span-1 mx-5 lg:mx-0 border rounded-md border-gray-300 bg-white">
           <div className="border-b border-gray-300 bg-gray-100 rounded-t-md h-10 flex items-center justify-center">
             <FiCheckCircle className="text-3xl text-green-400" />
-            <p className="text-lg pl-2">Missão</p>
+            <p className="text-lg pl-2">Missão.</p>
           </div>
           <p className="text-center px-10 pt-3">
             Manter o mais alto padrão de qualidade dos nossos produtos e atender
