@@ -1,5 +1,6 @@
 import { Component } from "react";
 import NavBarCustom from "./NavBarCustom";
+import LogoSouzeERezende from "/src/assets/brand-logo.png";
 function Header() {
   const buttonsArray = [
     { name: "Nossa Historia", goTo: 0.0 },
@@ -10,7 +11,7 @@ function Header() {
   ];
   return (
     <div className="h-55 relative bg-[url(../src/assets/nav-bg.png)]  flex  justify-center ">
-      <img src="../src/assets/brand-logo.png" alt="" className="h-2/3" />
+      <img src={LogoSouzeERezende} alt="" className="h-2/3" />
       <NavBarCustom buttons={buttonsArray}></NavBarCustom>
     </div>
   );

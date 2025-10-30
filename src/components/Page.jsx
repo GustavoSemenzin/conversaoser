@@ -1,4 +1,5 @@
 import { FiCheckCircle } from "react-icons/fi";
+import HistoryImage from "/src/assets/History-image.jpg";
 function Page() {
   return (
     <div className=" h-full lg:mx-55  pt-10 grid grid-cols-2 text-black gap-5 bg-white">
@@ -27,7 +28,7 @@ function Page() {
 
       <img
         className="col-span-3 lg:col-span-1 w-full "
-        src="../src/assets/History-image.jpg"
+        src={HistoryImage}
         alt=""
       />
       <div className="col-span-3 grid grid-cols-3 gap-2 h-70">

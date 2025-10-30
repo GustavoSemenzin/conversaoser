@@ -1,7 +1,7 @@
 function NavButton({ name, position }) {
   return (
     <div
-      className="cursor-pointer basis-1/12 flex items-center justify-center hover:bg-green-950"
+      className="cursor-pointer basis-1/12 flex items-center justify-center hover:bg-green-950 invisible lg:visible"
       onClick={() => {
         console.log("indo para " + position);
       }}
