@@ -12,7 +12,7 @@ function NavBarCustom({ buttons }) {
         />
       ))}
 
-      <div className="ml-auto flex items-center justify-center px-6 rounded  cursor-pointer  hover:bg-green-950 invisible lg:visible">
+      <div className="ml-auto  items-center justify-center px-6 rounded  cursor-pointer  hover:bg-green-950 hidden lg:flex">
         <p>Fale agora com a Souza & Rezende</p>
       </div>
     </div>

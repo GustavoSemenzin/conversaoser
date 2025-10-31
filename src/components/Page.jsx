@@ -2,7 +2,7 @@ import { FiCheckCircle } from "react-icons/fi";
 import HistoryImage from "/src/assets/History-image.jpg";
 function Page() {
   return (
-    <div className=" h-full lg:mx-55  pt-10 grid grid-cols-2 text-black gap-5 bg-white">
+    <div className="  lg:mx-55  pt-10 grid grid-cols-2 text-black gap-5 bg-white">
       {/* Nossa Historia */}
       <div className="col-span-3 lg:col-span-1">
         <p className="text-4xl text-blue-950 font-bold text-center lg:text-left">
